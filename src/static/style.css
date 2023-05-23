@@ -1,0 +1,7 @@
+svg.starSVG:hover  path{
+    stroke: #5E96FC;
+}
+
+.star {
+    width: 24px;
+}
