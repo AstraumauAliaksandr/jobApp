@@ -32,7 +32,7 @@ const Vacancy = ({
   const isLarge = useMediaQuery("(min-width: 51em)");
   const onClick = useCallback(
     (e: React.MouseEvent) => {
-      navigate(`/vacancy/${id}`);
+      navigate(`/jobApp/vacancy/${id}`);
     },
     [id, navigate]
   );

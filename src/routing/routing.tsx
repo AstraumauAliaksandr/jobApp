@@ -11,10 +11,10 @@ import Oops from "../components/oops/Oops";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path={"/"} element={<App />}>
+    <Route path={"/jobApp/"} element={<App />}>
       <Route index element={<SearchPage />} />
-      <Route path={"/favourites"} element={<FavouritesPage />} />
-      <Route path={`vacancy/:vacancyId`} element={<VacancyPage />} />
+      <Route path={"/jobApp/favourites"} element={<FavouritesPage />} />
+      <Route path={`/jobApp/vacancy/:vacancyId`} element={<VacancyPage />} />
       <Route path="*" element={<Oops />} />
     </Route>
   )

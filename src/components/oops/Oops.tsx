@@ -13,7 +13,7 @@ const Oops = () => {
       <Button
         className={classes.button}
         onClick={() => {
-          navigate(`/`);
+          navigate(`/jobApp/`);
         }}
       >
         Поиск Вакансий

@@ -13,11 +13,11 @@ const App = () => {
   const links: HeaderResponsiveProps = {
     links: [
       {
-        link: "/",
+        link: "/jobApp/",
         label: "Поиск Вакансий",
       },
       {
-        link: "/favourites",
+        link: "/jobApp/favourites",
         label: "Избранное",
       },
     ],
